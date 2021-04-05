@@ -67,6 +67,7 @@ class App extends React.Component {
     });
     console.log(this.state.work);
   };
+  git;
 
   //Check Item Off & On
   toggleItem = (itemId) => {
